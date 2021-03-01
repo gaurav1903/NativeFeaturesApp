@@ -7,8 +7,8 @@ class AddPlaceScreen extends StatefulWidget {
 }
 
 class _AddPlaceScreenState extends State<AddPlaceScreen> {
-  @override
   final _titlecontroller = TextEditingController();
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
